@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Cargar el archivo
-df = pd.read_csv("C:/Users/trezz/Desktop/proyectosDeDesarrolloWeb/PandasProject/data/WB_WDI_SP_DYN_LE00_IN.csv")
+df = pd.read_csv("C:/Users/trezz/Desktop/proyectosDeDesarrolloWeb/AnalisisEsperanzaVida/data/WB_WDI_SP_DYN_LE00_IN.csv")
 
 #Exploracion Inicial
 print("\n *Forma del DataFrame (filas, columnas):")
