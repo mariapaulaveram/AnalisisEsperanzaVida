@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # Cargar el archivo
-df = pd.read_csv("C:/Users/trezz/Desktop/proyectosDeDesarrolloWeb/AnalisisEsperanzaVida/data/WB_WDI_SP_DYN_LE00_IN.csv")
+df = pd.read_csv("data/WB_WDI_SP_DYN_LE00_IN.csv")
 
 # Convertir valores a numéricos (por si hay texto o nulos)
 df["OBS_VALUE"] = pd.to_numeric(df["OBS_VALUE"], errors="coerce")
